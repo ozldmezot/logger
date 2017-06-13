@@ -1,0 +1,22 @@
+{
+    "name": "ozldmezot/logger",
+	"type": "library",
+	"keywords": ["log"],
+	"homepage": "https://github.com/ozldmezot/logger",
+	"license": "GNU GPL v3",
+	"authors": [
+        {
+            "name": "Emils Kalnins",
+            "email": "emils.kalnins@outlook.com",
+            "role": "Developer"
+        }
+    ],
+	"require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Ozldmezot\\Logger" : "src"
+        }
+    }
+}
