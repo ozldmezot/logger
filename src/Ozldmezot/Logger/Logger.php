@@ -34,7 +34,6 @@ class Logger {
         array_unshift($parts, self::$base_dir);
         foreach($parts as $part)
             if(!is_dir($dir .= "$part/")) {
-                var_dump($dir);
                 mkdir($dir, 0755);
         }
 
